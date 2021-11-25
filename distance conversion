@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{
+    float second, minute, hour;
+
+    printf("Enter time in second: ");
+    scanf("%f", &second);
+
+    minute = second / 60.0;
+    hour   = minute / 60.0;
+
+    printf("time in minute = %.2f minute \n", minute);
+    printf("timeb in hour = %.4f hour", hour);
+
+    return 0;
+}
