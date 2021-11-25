@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main ()
+{
+ float sq_metre, sq_centimetre ;
+     printf("enter area in sq_metre: ");
+     scanf("%.4f",&sq_metre);
+     sq_metre = 1000.0 * sq_centimetre;
+     printf("area in sq_centimetre = %.2f ",sq_centimetre);
+return 0;
+}
