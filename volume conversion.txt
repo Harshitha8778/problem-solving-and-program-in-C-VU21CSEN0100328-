@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main()
+{
+    float cubic_foot, cubic_inch, cubic_centimetre;
+    
+    
+    printf("Enter cubic_foot: ");
+    scanf("%f", &cubic_foot);
+
+    
+    cubic_inch = cubic_foot * 1728.0;
+    cubic_centimetre = cubic_inch * 16.38;
+    
+    
+    printf("cubic_inch = %.2f \n", cubic_inch);
+    printf("cubic_centimetre = %.2f units \n", cubic_centimetre);
+    
+    return 0;
+}
