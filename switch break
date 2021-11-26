@@ -1,0 +1,30 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+char operator;
+float a,b;
+a=100.0;
+b=10.0;
+printf("enter an operator(+,-,/,*): ");
+scanf("%c",&operator);
+switch(operator)
+{
+case '+':
+    printf("a+b=%.1f",a+b);
+    break;
+case '-':
+    printf("a-b=%.1f",a-b);
+    break;
+case '*':
+    printf("a*b=%.1f",a*b);
+    break;
+case '/':
+    printf("a/b=%.1f",a/b);
+    break;    
+    
+    
+return 0;
+}
+return 0;
+}
