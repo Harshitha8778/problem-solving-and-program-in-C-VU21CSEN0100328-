@@ -1,0 +1,15 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    float pi,radius,height,volume;
+     printf("enter radius: ");
+     scanf("%f",&radius);
+     printf("enter height: ");
+     scanf("%f",&height);
+     pi=3.14;
+     volume=pi*(radius*radius)*height;
+     printf("volume of cylinder:%.2f",volume);
+     
+    return 0;
+}
