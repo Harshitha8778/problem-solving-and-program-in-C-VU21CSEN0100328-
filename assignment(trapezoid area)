@@ -1,0 +1,16 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    float parallelside1,parallelside2,height,area,x;
+    printf("enter parallelside1: ");
+     scanf("%f",&parallelside1);
+     printf("enter parallelside2: ");
+     scanf("%f",&parallelside2);
+      printf("enter height: ");
+     scanf("%f",&height);
+     x=parallelside1+parallelside2;
+     area=(x/2)*height;
+    printf("area of trapezoid:%.2f \n",area);
+    return 0;
+}
