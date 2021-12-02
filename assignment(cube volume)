@@ -1,0 +1,12 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    float sideA,volume;
+    printf("enter sideA: ");
+     scanf("%f",&sideA);
+     volume=sideA*sideA*sideA;
+     printf("enter volume:%.2f",volume);
+     
+    return 0;
+}
