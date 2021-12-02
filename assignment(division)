@@ -1,0 +1,14 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    float a,b,c;
+    printf("enter a number a: ");
+     scanf("%f",&a);
+    printf("enter a number b: ");
+     scanf("%f",&b);
+    c=a/b;
+    printf("quotient of a and b:%.1f",c);
+    
+    return 0;
+}
