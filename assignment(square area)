@@ -1,0 +1,11 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    float side,area;
+    printf("enter side: ");
+     scanf("%.2f",&side);
+     area=side*side;
+    printf("area of circle:%.2f \n",area);
+    return 0;
+}
