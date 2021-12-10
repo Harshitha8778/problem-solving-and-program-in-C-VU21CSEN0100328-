@@ -1,0 +1,23 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int x,y,z,*a,*b,*c,temp;
+    printf("enter the value of x: ");
+    scanf("%d",&x);
+    printf("enter the value of y: ");
+    scanf("%d",&y);
+     printf("enter the value of z: ");
+    scanf("%d",&z);
+    printf("before swapping, the value of x=%d\n the value of y=%d\n,the value of z=%d\n",x,y,z);
+    a=&x;
+    b=&y;
+    c=&z;
+    temp=*c;
+    *c=*b;
+    *b=*a;
+    *a=temp;
+     printf("after swapping, the value of x=%d\n the value of y=%d,the value of z=%d\n",x,y,z);
+    
+    return 0;
+}
