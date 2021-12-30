@@ -1,0 +1,51 @@
+#include <stdio.h>
+
+void sum();  
+void dif();
+void mul();
+void div();
+void main()  
+{  
+    sum(); 
+    dif();
+    mul();
+    div();
+}  
+void sum()  
+{  
+    int a,b;   
+    printf("\nEnter number a:");  
+    scanf("%d",&a);
+    printf("\nEnter number b:");  
+    scanf("%d",&b);
+    printf("The sum is %d",a+b);  
+}  
+
+void dif()  
+{  
+    int a,b;   
+    printf("\nEnter number a:");  
+    scanf("%d",&a);
+    printf("\nEnter number b:");  
+    scanf("%d",&b);
+    printf("The difference is %d",a-b);  
+}  
+void mul()  
+{  
+    int a,b;   
+    printf("\nEnter number a:");  
+    scanf("%d",&a);
+    printf("\nEnter number b:");  
+    scanf("%d",&b);
+    printf("The multiple is %d",a*b);  
+}
+void div()
+{  
+    int a,b;   
+    printf("\nEnter number a:");  
+    scanf("%d",&a);
+    printf("\nEnter number b:");  
+    scanf("%d",&b);
+    printf("The quotient is %d",a/b);  
+}  
+
