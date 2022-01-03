@@ -1,0 +1,18 @@
+
+#include <stdio.h>
+#include <math.h>
+void power();
+void main()
+{
+    power();
+}
+void power()
+{
+int a,b,c;
+printf("\nenter any number: ");
+scanf("%d",&a);
+printf("\nenter any number: ");
+scanf("%d",&b);
+c=pow(a,b);
+printf("\n%d^%d = %d",a,b,c);
+}
